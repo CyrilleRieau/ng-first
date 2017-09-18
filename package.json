@@ -1,0 +1,37 @@
+{
+    "name": "ng-first",
+    "version": "1.0.0",
+    "description": "First project on Angular4",
+    "main": "bootstrap.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CyrilleRieau/ng-first.git"
+    },
+    "keywords": [
+        "Angular"
+    ],
+    "author": "Cyrille Rieau",
+    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/CyrilleRieau/ng-first/issues"
+    },
+    "homepage": "https://github.com/CyrilleRieau/ng-first#readme",
+    "dependencies": {
+        "@angular/common": "^4.4.1",
+        "@angular/compiler": "^4.4.1",
+        "@angular/compiler-cli": "^4.4.1",
+        "@angular/core": "^4.4.1",
+        "@angular/platform-browser": "^4.4.1",
+        "rxjs": "^5.4.3",
+        "zone.js": "^0.8.17"
+    },
+    "devDependencies": {
+        "ts-loader": "^2.3.7",
+        "typescript": "^2.5.2",
+        "webpack": "^3.6.0"
+    }
+}
